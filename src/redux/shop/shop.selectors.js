@@ -8,8 +8,9 @@ export const selectCollections = createSelector(
   (shop) => shop.collections
 );
 
-export const selectCollection = (collectionUrlParam) =>
+export const selectCollection = memoize((collectionUrlParam) =>
   createSelector(
     [selectCollections],
     (collections) => collections[collectionUrlParam]
-  );
+  )
+);
