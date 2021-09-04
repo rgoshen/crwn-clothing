@@ -6,13 +6,13 @@ import dotenv from "dotenv";
 dotenv.config({ silent: true });
 
 const config = {
-  apiKey: `${process.env.REACT_APP_API_KEY}`,
-  authDomain: `${process.env.REACT_APP_AUTH_DOMAIN}`,
-  projectId: `${process.env.REACT_APP_PROJECT_ID}`,
-  storageBucket: `${process.env.REACT_APP_STORAGE_BUCKET}`,
-  messagingSenderId: `${process.env.REACT_APP_MESSAGING_SENDER_ID}`,
-  appId: `${process.env.REACT_APP_APP_ID}`,
-  measurementId: `${process.env.REACT_APP_MEASUREMENT_ID}`,
+  apiKey: "AIzaSyBJ6yuH-aJ4-TIwp_Owc5tJbmyKy9-_Wk0",
+  authDomain: "crwn-db-18197.firebaseapp.com",
+  projectId: "crwn-db-18197",
+  storageBucket: "crwn-db-18197.appspot.com",
+  messagingSenderId: "314490709927",
+  appId: "1:314490709927:web:2e57123c785ed2ee293882",
+  measurementId: "G-T9XMVW6WLE",
 };
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
