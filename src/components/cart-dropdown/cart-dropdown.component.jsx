@@ -4,7 +4,7 @@ import { createStructuredSelector } from "reselect";
 import { selectCartItems } from "../../redux/cart/cart.selectors";
 import { withRouter } from "react-router";
 import { toggleCartHidden } from "../../redux/cart/cart.actions";
-import CustomButton from "../custom-button/custom-button.component";
+// import CustomButton from "../custom-button/custom-button.component";
 import CartItem from "../cart-item/cart-item.component";
 import {
   CartDropdownContainer,
