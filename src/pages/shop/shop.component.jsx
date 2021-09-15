@@ -28,11 +28,6 @@ class ShopPage extends React.Component {
       updateCollections(collectionMap);
       this.setState({ loading: false });
     });
-    // fetch(
-    //   "https://firestore.googleapis.com/v1/projects/crwn-db-18197/databases/(default)/documents/collections"
-    // )
-    //   .then((res) => res.json())
-    //   .then((collections) => console.info(collections));
   }
 
   render() {
